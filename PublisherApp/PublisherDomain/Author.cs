@@ -14,8 +14,8 @@ namespace PublisherDomain
         }
 
         public int Id { get; set; }
-        public string firstName { get; set; }
-        public string lastName { get; set; }
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
         public List<Book> Books { get; set; }
 
     }
